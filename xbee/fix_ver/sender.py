@@ -45,7 +45,7 @@ def setSerial(mybaudrate,timeout=None):
         dsrdtr       = False,
         interCharTimeout = None)
  
-    #bufferクリア
+
     com.flushInput()
     com.flushOutput()
     return com
